@@ -1,0 +1,105 @@
+a{
+	outline:none;
+}
+a:focus {
+    outline:none;
+    -moz-outline:none;
+} 
+#body{
+	border-style:solid;
+	width:1100px;
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+ 
+#title{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	font-family:"宋体";
+	font-size:22px;
+}
+
+form.cmxform {
+	width: 850px;
+	margin-left:100px;
+    padding:20px;
+}
+  
+form.cmxform legend {
+	padding-left: 0;
+    color:#fff;
+    font-size:14px;
+    padding:0px 4px 15px 4px;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+form.cmxform label{
+	font-family:"宋体";
+    font-size: 22px;    
+	font-weight: bold;       
+    text-align: left;
+    clear:left;
+    margin:4px 4px 0px 0px;            
+    color: #888888;
+}
+
+#re_name,#re_password,#re_email{
+    font-family:"宋体";
+    font-size:18px;
+    float:right;   
+	margin-right:400px;           
+    border:1px solid #cccccc;
+    color:#707070;
+    height:25px;
+	width:220px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+ }
+
+form.cmxform input:focus, form.cmxform select:focus{
+    background-color:#E0E6FF;
+}      
+
+form.cmxform fieldset p, form.cmxform fieldset fieldset {
+	padding: 5px 10px 7px;
+}
+
+form.cmxform label.error, label.error {
+	color: red;
+	font-size:16px;
+}
+div.error { display: none; }
+input {	border: 1px solid black; }
+input.checkbox { border: none }
+input:focus { border: 1px dotted black; }
+input.error { border: 1px dotted red; }
+form.cmxform .gray * { color: gray; }
+
+#submit{
+	position:absolute;
+	margin-top:-160px;
+	margin-left:530px; 
+	border:none;
+	width:280px;
+	height:65px;
+	background:#aaaaaa;
+	cursor:pointer;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 50px;
+	font-family:"arial";
+    font-size:30px;
+	font-weight: bold; 
+}
+
+#submit:hover{
+    background-color: #666666; 
+} 

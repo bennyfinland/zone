@@ -1,0 +1,73 @@
+.wrapper {
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+}
+h1 {
+	font-size: 21px;
+	height: 47px;
+	line-height: 47px;
+	text-transform: uppercase;
+}
+
+.tabsContent {
+	border: 1px solid #ccc;
+	border-top: 0px solid;
+	width: 698px;
+	overflow: hidden;
+}
+.tab {
+	padding: 16px;
+	display: none;
+}
+.tab h2 {
+	font-weight: bold;
+	font-size: 16px;
+}
+.tab h3 {
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.tab p {
+	margin-top: 16px;
+	clear: both;
+}
+.tab ul {
+	margin-top: 16px;
+	list-style: disc;
+}
+.tab li {
+	margin: 10px 0 0 35px;
+}
+.tab a {
+	color: #8FB0CF;
+}
+.tab strong {
+	font-weight: bold;
+}
+.tab pre {
+	font-size: 11px;
+	margin-top: 20px;
+	width: 668px;
+	overflow: auto;
+	clear: both;
+}
+.tab table {
+	width: 100%;
+}
+.tab table td {
+	padding: 6px 10px 6px 0;
+	vertical-align: top;
+}
+.tab dt {
+	margin-top: 16px;
+}
+.lightsGal,
+.bwGal,
+.customGal {
+	display: block;
+	float: left;
+	margin: 0 10px 10px 0;
+    cursor: url(../../../image/zoomin.cur), default;
+}
